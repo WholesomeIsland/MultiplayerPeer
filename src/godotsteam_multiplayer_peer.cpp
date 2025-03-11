@@ -5,7 +5,7 @@
 #include "godotsteam_multiplayer_peer.h"
 
 // Include Godot headers
-#include "core/io/json.h"
+#include "../godot-cpp/gen/include/godot_cpp/classes/json.hpp"
 
 
 ///// DO IT

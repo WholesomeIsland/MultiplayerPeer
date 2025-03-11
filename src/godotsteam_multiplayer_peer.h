@@ -17,11 +17,11 @@
 /////////////////////////////////////////////////
 //
 // Include Godot headers
-#include "core/os/os.h"
-#include "scene/main/multiplayer_peer.h"
+#include "..\godot-cpp\gen\include\godot_cpp\classes\os.hpp"
+#include "..\godot-cpp\gen\include\godot_cpp\classes\multiplayer_peer.hpp"
 
 // Include Steam SDK headers through Godotsteam
-//#include "../godotsteam/sdk/public/steam/steam_api_flat.h"
+//#include "godotsteam/godotsteam/sdk/public/steam/steam_api_flat.h"
 
 #include "godotsteam_connection_data.h"
 

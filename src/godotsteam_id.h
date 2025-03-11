@@ -17,10 +17,10 @@
 /////////////////////////////////////////////////
 //
 // Include GodotSteam's Steam SDK headers
-#include "../godotsteam/sdk/public/steam/steam_api_flat.h"
+#include "godotsteam/godotsteam/sdk/public/steam/steam_api_flat.h"
 
 // Include Godot headers
-#include "core/os/os.h"
+#include "../godot-cpp/gen/include/godot_cpp/classes/os.hpp"
 
 
 class SteamID : public RefCounted {

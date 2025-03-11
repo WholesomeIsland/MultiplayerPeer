@@ -2,11 +2,11 @@
 #define GODOTSTEAMMULTIPLAYER_REGISTER_TYPES_H
 
 
-#include "modules/register_module_types.h"
+#include "../godot-cpp/gdextension/gdextension_interface.h"
 
 
-void initialize_godotsteam_multiplayer_peer_module(ModuleInitializationLevel level);
-void uninitialize_godotsteam_multiplayer_peer_module(ModuleInitializationLevel level);
+void initialize_godotsteam_multiplayer_peer(ModuleInitializationLevel level);
+void uninitialize_godotsteam_multiplayer_peer(ModuleInitializationLevel level);
 
 
 #endif
