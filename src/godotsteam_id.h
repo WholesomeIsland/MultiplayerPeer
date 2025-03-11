@@ -17,7 +17,7 @@
 /////////////////////////////////////////////////
 //
 // Include GodotSteam's Steam SDK headers
-#include "godotsteam/godotsteam/sdk/public/steam/steam_api_flat.h"
+#include "../../godotsteam/godotsteam/sdk/public/steam/steam_api_flat.h"
 
 // Include Godot headers
 #include "../godot-cpp/gen/include/godot_cpp/classes/os.hpp"
